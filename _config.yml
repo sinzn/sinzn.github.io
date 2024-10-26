@@ -8,14 +8,14 @@
 title: My Portfolio
 description: "Welcome to my portfolio website where I showcase my projects, skills, and experiences."
 baseurl: "" # Leave blank if deploying at the root level
-url: "https://<your-username>.github.io" # Your GitHub Pages URL
+url: "https://sinzn.github.io" # Your GitHub Pages URL
 
 author:
   name: "Your Name"
   email: "your-email@example.com"
   
-theme: "minimal" # Specify your theme (can be "jekyll-theme-minimal", "jekyll-theme-slate", etc.)
-logo: "assets/images/logo.png" # Path to your logo image
+theme: jekyll-theme-minimal # Specify your theme (can be "jekyll-theme-minimal", "jekyll-theme-slate", etc.)
+logo: /assets/img/headshot_circle.png # Path to your logo image
 
 # Navigation links
 navigation:
