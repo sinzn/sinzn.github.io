@@ -1,21 +1,13 @@
-title: Shaw Talebi
-logo: /assets/img/headshot_circle.png
-description: text below image
-show_downloads: true
-theme: jekyll-theme-minimal
-
-
 title: My Portfolio
-description: "Welcome to my portfolio website where I showcase my projects, skills, and experiences."
-baseurl: "" # Leave blank if deploying at the root level
-url: "https://sinzn.github.io" # Your GitHub Pages URL
+description: "Welcome to my portfolio site showcasing my projects and skills."
+baseurl: ""  # Leave blank if deploying at the root level
+url: "https://<your-username>.github.io"  # Your GitHub Pages URL
 
 author:
   name: "Your Name"
   email: "your-email@example.com"
-  
-theme: jekyll-theme-minimal # Specify your theme (can be "jekyll-theme-minimal", "jekyll-theme-slate", etc.)
-logo: /assets/img/headshot_circle.png # Path to your logo image
+
+theme: "architect"
 
 # Navigation links
 navigation:
@@ -32,33 +24,3 @@ navigation:
 social:
   github: "https://github.com/your-username"
   linkedin: "https://www.linkedin.com/in/your-linkedin/"
-  twitter: "https://twitter.com/your-twitter/"
-  instagram: "https://instagram.com/your-instagram/"
-
-# Project settings
-projects:
-  - title: "Project One"
-    description: "A brief description of project one."
-    url: "https://github.com/your-username/project-one"
-    image: "assets/images/project-one.png"
-
-  - title: "Project Two"
-    description: "A brief description of project two."
-    url: "https://github.com/your-username/project-two"
-    image: "assets/images/project-two.png"
-
-# Blog settings (if applicable)
-blog:
-  enabled: true
-  posts_per_page: 5
-  excerpt_length: 150
-
-# Additional configurations
-paginate: 5 # Number of items per page
-markdown: kramdown # Markdown processor
-
-# Build settings
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
