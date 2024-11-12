@@ -61,40 +61,34 @@ body {
 }
 
 .main-content {
-    margin-left:350px;
-    padding: 4rem;
+    margin-left:250px;
+    /* padding: 6rem; */
     position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .hello {
-    font-size: 6rem;
+    font-size: 9rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #999;
-    max-width: 600px;
-    line-height: 1.6;
+    max-width: 400px;
+    line-height: 2;
 }
-
-.mighty-link {
-    color: white;
-    text-decoration: none;
-    border-bottom: 1px solid #ff6b00;
-}
-
 .view-work {
     display: inline-block;
-    margin-top: 2rem;
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
+    margin-top: 1rem;
 }
 
 .view-work:after {
