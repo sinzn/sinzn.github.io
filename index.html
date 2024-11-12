@@ -1,203 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" class="dark-theme">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps Portfolio</title>
-    <style>
-        :root {
-            --bg-color: #fff;
-            --text-color: #000;
-            --item-bg-color: #f5f5f5;
-            --hover-color: #333;
-        }
-        .dark-theme {
-            --bg-color: #000;
-            --text-color: #fff;
-            --item-bg-color: #111;
-            --hover-color: #ccc;
-        }
-        body, html {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        .logo {
-            width: 60px;
-            height: 60px;
-            margin-bottom: 20px;
-        }
-        nav {
-            margin-bottom: 20px;
-        }
-        nav a {
-            text-decoration: none;
-            color: var(--text-color);
-            margin: 0 15px;
-            font-size: 18px;
-            transition: color 0.3s ease;
-        }
-        nav a:hover {
-            color: var(--hover-color);
-        }
-        nav a:first-child {
-            font-weight: bold;
-        }
-        .social-links a {
-            text-decoration: none;
-            color: var(--text-color);
-            margin: 0 10px;
-            transition: color 0.3s ease;
-        }
-        .social-links a:hover {
-            color: var(--hover-color);
-        }
-        .portfolio {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-        }
-        .portfolio-item {
-            background-color: var(--item-bg-color);
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, background-color 0.3s ease;
-        }
-        .portfolio-item:hover {
-            transform: scale(1.05);
-        }
-        .portfolio-item img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .portfolio-item h2 {
-            padding: 15px;
-            margin: 0;
-            text-align: center;
-            font-size: 18px;
-            color: var(--text-color);
-        }
-        .portfolio-item p {
-            padding: 0 15px 15px;
-            margin: 0;
-            font-size: 14px;
-            color: var(--text-color);
-        }
-        .about {
-            margin-top: 40px;
-            background-color: var(--item-bg-color);
-            padding: 20px;
-            border-radius: 8px;
-            transition: background-color 0.3s ease;
-        }
-        .about h2 {
-            color: var(--text-color);
-            margin-top: 0;
-        }
-        .about p {
-            color: var(--text-color);
-        }
-        .theme-toggle {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-        .theme-toggle input {
-            display: none;
-        }
-        .theme-toggle label {
-            cursor: pointer;
-            padding: 10px;
-            background-color: var(--item-bg-color);
-            color: var(--text-color);
-            border-radius: 20px;
-            display: inline-block;
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-        .theme-toggle label:hover {
-            background-color: var(--hover-color);
-        }
-    </style>
+    <title>Creative Developer Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    
 </head>
 <body>
-    <div class="theme-toggle">
-        <input type="checkbox" id="theme-toggle">
-        <label for="theme-toggle">Toggle Theme</label>
+    <div class="logo">
+        <h1> sinzn</h1>
+        <p>~ DevOps ~</p>
     </div>
-    <div class="container">
-        <header>
-            <img src="https://via.placeholder.com/60" alt="Logo" class="logo">
-            <nav>
-                <a href="#portfolio">Portfolio</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
-            </nav>
-            <div class="social-links">
-                <a href="#" aria-label="Twitter">X</a>
-                <a href="#" aria-label="Behance">Be</a>
-                <a href="#" aria-label="Dribbble">Db</a>
-            </div>
-        </header>
-        <main id="portfolio" class="portfolio">
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/400x300" alt="Colorful robot illustration with geometric shapes">
-                <h2>It's fun to dream</h2>
-                <p>A whimsical DevOps automation project that brings joy to infrastructure management.</p>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/400x300" alt="Colorful robot illustration with geometric shapes">
-                <h2>It's fun to dream</h2>
-                <p>A whimsical DevOps automation project that brings joy to infrastructure management.</p>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/400x300" alt="Colorful robot illustration with geometric shapes">
-                <h2>It's fun to dream</h2>
-                <p>A whimsical DevOps automation project that brings joy to infrastructure management.</p>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/400x300" alt="Colorful robot illustration with geometric shapes">
-                <h2>It's fun to dream</h2>
-                <p>A whimsical DevOps automation project that brings joy to infrastructure management.</p>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/400x300" alt="Stylized blue and gray chimp illustration">
-                <h2>Chimp tee</h2>
-                <p>An innovative CI/CD pipeline that swings through your codebase with primate precision.</p>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://via.placeholder.com/400x300" alt="Mario-inspired character illustration">
-                <h2>3NES Show</h2>
-                <p>A retro-inspired monitoring dashboard that gamifies your system's performance metrics.</p>
-            </div>
-        </main>
-        <section id="about" class="about">
-            <h2>About Me</h2>
-            <p>I'm a passionate DevOps engineer with a knack for creating efficient, scalable, and fun solutions. With years of experience in cloud technologies, automation, and continuous integration, I bring a unique blend of technical expertise and creative problem-solving to every project. My goal is to bridge the gap between development and operations, ensuring smooth, reliable, and innovative software delivery.</p>
-        </section>
-        <section id="about" class="about">
-            <h2>contact me </h2>
-            <p>I'm a passionate DevOps engineer with a knack for creating efficient, scalable, and fun solutions. With years of experience in cloud technologies, automation, and continuous integration, I bring a unique blend of technical expertise and creative problem-solving to every project. My goal is to bridge the gap between development and operations, ensuring smooth, reliable, and innovative software delivery.</p>
-        </section>
-    </div>
-    <script>
-        document.getElementById('theme-toggle').addEventListener('change', function() {
-            document.documentElement.classList.toggle('dark-theme');
-        });
-    </script>
+
+    <nav class="sidebar">
+        <ul class="nav">
+            <li><a href="#work">Works</a></li>
+            <li><a href="# sd">Project</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <h2 class="hello">Hello!</h2>
+        <p class="description">
+            I'm a freelance Creative Developer, currently creating cutting-edge digital experiences
+            with the fantastic team at <a href="#" class="mighty-link">Mighty</a>.
+        </p>
+        <a href="#work" class="view-work">View Work</a>
+    </main>
+
+    <footer class="footer">
+        <a href="mailto:contact@example.com">Email </a>
+        <a href="#linkedin">LinkedIn</a>
+        <a href="#mighty">Mighty</a>
+    </footer>
+
+    <canvas id="particles"></canvas>
+    <script src="./script.js"></script>
 </body>
 </html>
