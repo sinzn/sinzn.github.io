@@ -1,5 +1,5 @@
 # Use the official Nginx image as the base image
-FROM nginx:latest
+FROM nginx:alpine
 
 # Set the working directory inside the container
 WORKDIR /app
