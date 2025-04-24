@@ -58,6 +58,10 @@
     display: block;
     margin-top: 10px;
   }
+
+.footer-subtext a{
+    color: #777;
+ }
   
   @media (max-width: 768px) {
     .footer-text {
