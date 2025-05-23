@@ -28,59 +28,7 @@
             left: 0;
             touch-action: none;
         }
-
-        /* Side links styles */
-        .side-link {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            font-family: monospace;
-            color: #ffffff;
-            font-size: 14px;
-            text-decoration: none;
-            transition: color 0.3s ease;
-            text-align: center;
-            line-height: 1.2;
-        }
-
-        .side-link:hover {
-            color: #c4ff00;
-        }
-
-        .about-link {
-            left: 20px;
-        }
-
-        .projects-link {
-            right: 20px;
-        }
-
-        /* Navbar styles */
-        .navbar {
-            position: absolute;
-            top: 30px;
-            width: 100%;
-            text-align: center;
-            z-index: 10;
-        }
-
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            font-family: monospace;
-            font-size: 14px;
-        }
-
-        .nav-link {
-            color: #ffffff;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .nav-link:hover {
-            color: #c4ff00;
-        }
+       
 
         .footer {
             position: absolute;
